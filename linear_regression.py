@@ -117,7 +117,7 @@ class Linear_regression():
         return cost
 
     def backward_propagation(self, train_input, train_output, predictions):
-        derivatives = {}
+        derivatives = {} #công cụ phái sinh
         df = (predictions-train_output)
         # dm= 2/n * mean of (predictions-actual) * input
         dm = 2 * np.mean(np.multiply(train_input, df))
