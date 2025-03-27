@@ -18,3 +18,5 @@ by default, it displays the first five rows, helping you verify the data format 
 ############################# function get_dummies() trong data frame pandas #############################
 
 sudo apt install python3-pydot graphviz
+
+- khác gì giữa việc sử dụng ai check spam với việc sử dụng bình thường, chỉ cần check một vài từ có tồn tại là tự hiểu được cái mail là spam với việc sử dụng filter mặc định trên outlook.
